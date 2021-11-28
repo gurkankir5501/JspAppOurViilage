@@ -1,0 +1,51 @@
+.sticky {
+    position: sticky;
+    top: 0;
+  z-index: 1;
+}
+
+.stic {
+    position: sticky;
+    top: 160px;
+  z-index: 1;
+}
+
+.hvr:hover{
+    
+    background-color:dimgray;
+    transition: 1s;
+}
+
+.fg:hover{
+    
+    width: 45px;
+    height: auto;
+    transition: 1s;
+}
+
+.faa:hover{
+    
+    background-color: darkgray
+    transition: 1s;
+}
+
+.fk{
+    
+    width: 40px;
+    height: auto;
+}
+
+#info
+{
+	font-size: 18px;
+	color: #555;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.pos{
+    
+    position: absolute;
+    top: 232px;
+    left: 817px;
+}

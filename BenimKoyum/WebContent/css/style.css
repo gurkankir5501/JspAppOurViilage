@@ -1,0 +1,325 @@
+.img1 {
+
+    width: 30px;
+    height: auto;
+}
+
+.opak1 {
+
+    opacity: 0.9;
+}
+
+.opak2 {
+
+    opacity: 0.7;
+    background-color: #2f2f2f94;
+}
+.opak3:hover{
+    
+       
+    transition: 2s;
+}
+
+
+.yer1 {
+
+    margin-left: 350px;
+}
+
+.nav1 {
+    position: absolute;
+
+    left: 0px;
+    top: 0px;
+
+    z-index: 0;
+}
+
+.nav2 {
+    z-index: 0;
+}
+
+#font1 {
+
+    width: 86%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    -webkit-appearance: none;
+    background: #ffffffd6;
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border: 1px solid #ddd;
+    border-bottom-left-radius: 5px;
+
+}
+
+.menu3 {
+    
+    
+    width: 350px;
+    height:700px;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    z-index: 1;
+    
+}
+
+.li1 {
+
+    float: left;
+    height: 29px;
+    line-height: 29px;
+    font-size: 15px;
+    margin-left: 20px;
+    padding-left: 70px;
+    list-style: none;
+
+}
+
+.ul1 {
+
+    padding-left: 250px;
+}
+.opak6{
+    
+    border: 0px;
+    background-color: none;
+}
+
+.aa {
+    color: #E6E6E6;
+    font-family: 'quicksand', sans-serif;
+}
+
+.ab:hover {
+
+    text-decoration: none;
+    
+
+}
+
+.ab2:hover{
+    
+    color: aliceblue;
+    transition: 1s;
+    height: 20px;
+}
+
+.img2 {
+
+    position: absolute;
+    left: 150px;
+    bottom: 25px;
+
+    width: 120px;
+    height: auto;
+    z-index: 0;
+    border-radius: 20px;
+    
+    transition: 1s;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.fx {
+
+    position: fixed;
+    top: 3px;
+
+
+}
+
+
+/* Starter CSS for Flyout Menu */
+
+
+#cssmenu ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#cssmenu ul li {
+    float: left;
+    min-height: 1px;
+    line-height: 1px;
+    vertical-align: middle;
+}
+
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+
+#cssmenu ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+}
+
+#cssmenu ul ul li {
+    float: none;
+}
+
+#cssmenu ul li:hover > ul {
+    visibility: visible;
+}
+
+#cssmenu ul ul {
+    top: 0;
+    left: 100%;
+}
+
+#cssmenu ul li {
+    float: none;
+}
+
+
+
+#cssmenu {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 20px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+    width: 270px;
+    transition-delay: 2s;
+}
+
+#cssmenu:after,
+#cssmenu ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+#cssmenu ul,
+#cssmenu li {
+    width: 100%;
+}
+
+
+
+#cssmenu li:hover,
+#cssmenu li.active {
+    background-color: #666666;
+    
+    transition: 1s;
+}
+
+#cssmenu li:hover > a,
+#cssmenu li.active > a {
+    color: #FFF;
+    text-decoration: none;
+    transition: 2s;
+}
+
+#cssmenu a {
+    color: #666666;
+    line-height: 160%;
+    padding: 16px 8px 16px 28px;
+    width: 164px;
+    
+}
+.hover1:hover{
+    
+    position: relative;
+    bottom: 3px;
+    
+}
+
+.hover12:hover{
+    
+    position: relative;
+    bottom: 4px;
+    
+    
+}
+
+
+.trans1:hover{
+    
+    
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+}
+
+
+
+.card1{
+    
+    color: black;
+}
+
+.trans2:hover{
+    
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transition: 1s;
+}
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.aq{
+    background-color: brown;
+}
+body{
+    margin: 0px;
+}
